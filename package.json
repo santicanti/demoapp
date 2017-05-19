@@ -1,0 +1,27 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "description": "simple app used to test jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santicanti/demoapp.git"
+  },
+  "author": "Santiago Canti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santicanti/demoapp/issues"
+  },
+  "homepage": "https://github.com/santicanti/demoapp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}
