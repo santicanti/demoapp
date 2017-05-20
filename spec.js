@@ -10,7 +10,7 @@ describe('loading express', function () {
   it('responds to /', function testSlash(done) {
   request(server)
     .get('/')
-    .expect(200, done);
+    .expect(500, done);
   });
   it('404 everything else', function testPath(done) {
     request(server)
